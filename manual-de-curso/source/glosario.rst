@@ -6,23 +6,25 @@
 Glosario
 ========
 
-:Autor(es): Leonardo J. Caballero G.
-:Correo(s): leonardocaballero@gmail.com
-:Compatible con: Python 2.x, Python 3.x
-:Fecha: 04 de Marzo de 2015
+.. sidebar:: Sobre este artículo
 
-A continuación una serie de términos usados en las tecnologías Python / Zope / Plone.
+    :Autor(es): Leonardo J. Caballero G.
+    :Correo(s): leonardoc@plone.org
+    :Compatible con: Python 2.x, Python 3.x
+    :Fecha: 26 de Marzo de 2015
+
+A continuación una serie de términos usados en las tecnologías Python / Zope / Plone
 
 .. glossary ::
     :sorted:
     
     buildout
-        En la herramienta `buildout`_, es un conjunto de partes
-        que describe como ensamblar una aplicación.
+        En la herramienta `buildout`_, es un conjunto de partes que describe como 
+        ensamblar una aplicación.
     
     bundle
         Ver :term:`Paquete bundle`.
-        
+
     Catalog
         Sinónimo en Ingles del termino :term:`Catálogo`.
 
@@ -62,20 +64,20 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
 
     Egg
         Ver :term:`paquetes Egg`.
-    
+
     esqueleto
         Los archivos y carpetas recreados por un usuario el cual los genero ejecutando 
         alguna plantilla ``templer`` (``PasteScript``).
-    
+
     estructura
         1) Una clase Python la cual controla la generación de un árbol de carpetas 
         que contiene archivos.
-        
+
         2) Una unidad de carpetas y archivos proveídos por el sistema ``templer`` para ser 
         usado en una plantilla o plantillas. Las estructuras proporcionan recursos 
         estáticos compartidos, que pueden ser utilizados por cualquier paquete en 
         el sistema de ``templer``.
-        
+
         Las estructuras diferencian de las plantillas en que no proporcionan las :term:`vars`.
 
     filesystem
@@ -94,7 +96,7 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
     local command
         Una clase `Paste`_ la cual provee funcionalidad adicional a una estructura 
         de esqueleto de proyecto que ha sido generada.
-    
+
     modulo
         Del Ingles ``module``, es un archivo fuente Python; un archivo en el sistema
         de archivo que típicamente finaliza con la extensión ``.py`` o ``.pyc``. Los modules
@@ -102,7 +104,8 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
     
     Nombre de puntos Python
         Es la representación Python del "camino" para un determinado objeto / módulo / función,
-        por ejemplo, ``Products.GenericSetup.tool.exportToolset``. A menudo se utiliza como referencia en configuraciones ``Paste`` y ``setuptools`` a cosas en Python.
+        por ejemplo, ``Products.GenericSetup.tool.exportToolset``. A menudo se utiliza como 
+        referencia en configuraciones ``Paste`` y ``setuptools`` a cosas en Python.
 
     PYTHONPATH
         Una lista de nombre de directorios, que contiene librerías Python, con la misma 
@@ -121,11 +124,12 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
     
     recipe
         En la herramienta :term:`buildout`, es el software usado para crear partes de 
-        una instalación basada en sus opciones. Mas información consulte el articulo `Recipes Buildout`_.
-    
+        una instalación basada en sus opciones. Mas información consulte el articulo 
+        `Recipes Buildout`_.
+
     paquete
         Ver :term:`Paquete Python`.
-    
+
     paquete Egg
         Es una forma de empaquetar y distribuir paquetes Python. Cada Egg contiene
         un archivo :file:`setup.py` con metadata (como el nombre del autor y la correo
@@ -156,13 +160,13 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
 
     Paquetes Python
         Plural del termino :term:`Paquete Python`.
-    
+
     plantilla
         1) Una clase Python la cual controla la generación de un esqueleto. Las 
         plantillas contiene una lista de variables para obtener la respuesta de un 
         usuario. Las plantillas son ejecutadas con el comando ``templer`` suministrando 
         el nombre de la plantilla como un argumento ``templer basic_namespace my.package``.
-        
+
         2) Los archivos y carpetas proveídas un paquete ``templer`` como contenido a ser 
         generado. Las respuestas proporcionadas por un usuario en respuesta a las variables 
         se utilizan para rellenar los marcadores de posición en este contenido.
@@ -180,7 +184,7 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
         Por ejemplo, el núcleo de Plone es un producto llamado ``CMFPlone``, conocido 
         en Python como `Products.CMFPlone`_.
         
-        Este tipo de productos esta disponibles desde la `interfaz administrativa de Zope (ZMI)`_
+        Este tipo de productos esta disponibles desde la `interfaz administrativa de Zope (ZMI)`_ 
         de `su instalación`_ donde deben acceder con las credenciales del usuario 
         Administrador de Zope. Muchas veces el producto simplemente no hay que 
         instalarlo por que se agregar automáticamente.
@@ -206,7 +210,7 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
 
     setup.py
         El archivo :file:`setup.py` es un modulo de Python, que por lo general indica que
-        el módulo / paquete que está a punto de instalar ha sido empacado ​​y distribuidos
+        el módulo / paquete que está a punto de instalar ha sido empacado y distribuidos
         con ``Distutils``, que es el estándar para la distribución de módulos de Python.
         
         Con esto le permite instalar fácilmente paquetes de Python, a menudo es suficiente
@@ -274,7 +278,7 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
         instalación de Zope, por lo general se ven como ``collective.foo-configure.zcml``. 
         Estas configuraciones ya no están más en uso, pueden ser eliminados agregando 
         las configuraciones del paquete `z3c.autoinclude`_.
-    
+
     ZCA
     Zope Component Architecture
         La `arquitectura de componentes de Zope (alias ZCA)`_, es un
@@ -318,10 +322,10 @@ A continuación una serie de términos usados en las tecnologías Python / Zope 
 .. _su instalación: http://localhost:8080/manage
 .. _z3c.autoinclude: http://pypi.python.org/pypi/z3c.autoinclude
 .. _Paste: http://pythonpaste.org/
-.. _buildout: https://plone-spanish-docs.readthedocs.org/es/latest/buildout/replicacion_proyectos_python.html
+.. _arquitectura de componentes de Zope (alias ZCA): https://plone-spanish-docs.readthedocs.org/es/latest/programacion/zca/zca-es.html#zca-es
+.. _buildout: https://plone-spanish-docs.readthedocs.org/es/latest/buildout/replicacion_proyectos_python.html#que-es-zc-buildout
 .. _ZMI: https://plone-spanish-docs.readthedocs.org/es/latest/zope/zmi/index.html
 .. _portal_catalog: https://plone-spanish-docs.readthedocs.org/es/latest/zope/zmi/index.html#portal-catalog
 .. _Recipes Buildout: https://plone-spanish-docs.readthedocs.org/es/latest/buildout/recipes.html
 .. _setuptools: https://plone-spanish-docs.readthedocs.org/es/latest/python/setuptools.html
 .. _interfaz administrativa de Zope (ZMI): https://plone-spanish-docs.readthedocs.org/es/latest/zope/zmi/index.html
-.. _arquitectura de componentes de Zope (alias ZCA): https://plone-spanish-docs.readthedocs.org/es/latest/programacion/zca/zca-es.html
