@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'entrenamiento.python_basico'
-copyright = u'2014, Covantec R.L.'
+copyright = u'2014 - 2015, Covantec R.L.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -219,7 +219,6 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = 'covantec.jpg'
 latex_logo = '_static/covantec.jpg'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
@@ -257,11 +256,11 @@ latex_appendices = ['glosario','licencia']
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-  ('index', 'entrenamientopython_basico', u'Materiales del curso de programación en Python - Nivel básico',
-   u'Leonardo J. Caballero G.', 'entrenamientopython_basico', 'One line description of project.',
-   'Miscellaneous'),
-]
+#texinfo_documents = [
+#  ('index', 'entrenamientopython_basico', u'Materiales del curso de programación en Python - Nivel básico',
+#   u'Leonardo J. Caballero G.', 'entrenamientopython_basico', 'One line description of project.',
+#   'Miscellaneous'),
+#]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
@@ -276,14 +275,14 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Materiales del curso de programación en Python - Nivel básico'
-epub_author = u'Leonardo J. Caballero G.'
-epub_publisher = u'Covantec R.L.'
-epub_copyright = u'2014, Leonardo J. Caballero G.'
+#epub_title = u'Materiales del curso de programación en Python - Nivel básico'
+#epub_author = u'Leonardo J. Caballero G.'
+#epub_publisher = u'Covantec R.L.'
+#epub_copyright = u'2014 - 2015, Leonardo J. Caballero G.'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
-epub_language = 'es'
+#epub_language = 'es'
 
 # The scheme of the identifier. Typical schemes are ISBN or URL.
 #epub_scheme = ''
@@ -307,7 +306,7 @@ epub_language = 'es'
 #epub_post_files = []
 
 # A list of files that should not be packed into the epub file.
-epub_exclude_files = ['search.html']
+#epub_exclude_files = ['search.html']
 
 # The depth of the table of contents in toc.ncx.
 #epub_tocdepth = 3
