@@ -47,7 +47,7 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # General information about the project.
-project = u'entrenamiento.python_basico'
+project = u'python_basico_3'
 copyright = u'2014 - 2015, Covantec R.L.'
 
 # The version info for the project you're documenting, acts as replacement for
