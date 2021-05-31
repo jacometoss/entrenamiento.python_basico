@@ -47,8 +47,8 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # General information about the project.
-project = u'python_basico_3'
-copyright = u'2014 - 2015, Covantec R.L.'
+project = 'python_basico_3'
+copyright = '2014 - 2015, Covantec R.L.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -110,10 +110,10 @@ html_theme = 'sphinx_rtd_theme'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = u'Materiales del curso de programación en Python - Nivel básico'
+html_title = 'Materiales del curso de programación en Python - Nivel básico'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = u'Programación en Python - Nivel básico'
+html_short_title = 'Programación en Python - Nivel básico'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
